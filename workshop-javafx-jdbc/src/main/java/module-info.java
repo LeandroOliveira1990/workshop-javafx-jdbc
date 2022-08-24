@@ -4,5 +4,6 @@ module application.workshopjavafxjdbc {
 
 
     opens application.workshopjavafxjdbc to MainView.fxml;
+    opens application.workshopjavafxjdbc.gui;
     exports application.workshopjavafxjdbc;
 }
