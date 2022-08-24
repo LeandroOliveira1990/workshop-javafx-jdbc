@@ -3,6 +3,6 @@ module application.workshopjavafxjdbc {
     requires javafx.fxml;
 
 
-    opens application.workshopjavafxjdbc to javafx.fxml;
+    opens application.workshopjavafxjdbc to MainView.fxml;
     exports application.workshopjavafxjdbc;
 }
