@@ -1,6 +1,7 @@
 module application.workshopjavafxjdbc {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.sql;
 
 
     opens application.workshopjavafxjdbc to MainView.fxml;
